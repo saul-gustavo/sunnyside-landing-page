@@ -1,0 +1,589 @@
+ <header class="header">
+    <nav class="nav">
+      <div class="logo-container">
+        <img src="/images/logo.svg" alt="logo" class="logo-img">
+      </div>
+      <ul class="menu">
+        <li>About</li>
+        <li>Services</li>
+        <li>Projects</li>
+        <button class="btn-nav">Contact</button>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>We are creatives</h1>
+    <img src="/images/icon-arrow-down.svg" alt="icon arro down" class="arrow">
+  </section>
+
+  <section class="cards">
+    <div class="card" id="one">
+      <div class="text">
+        <h1>Transform your brand</h1>
+        <p class="sub">We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <div class="learn">
+          Learn more
+        </div>
+      </div>
+      <div class="imagen">
+        <img src="/images/desktop/image-transform.jpg" alt="Transform" class="img-card">
+      </div>
+    </div>
+
+    <div class="card" id="two">
+      <div class="imagen">
+        <img src="images/desktop/image-stand-out.jpg" alt="Stand" class="img-card">
+      </div>
+      <div class="text">
+        <h1>
+          Stand out to the right audience
+        </h1>
+        <p>
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
+          build
+          and extend your brand in digital places.
+        </p>
+        <div class="learn">
+          Learn more
+        </div>
+      </div>
+    </div>
+
+    <div class="card-two" id="three">
+      <div class="cherry">
+        <img src="images/desktop/image-graphic-design.jpg" alt="Graphic" class="cherry-img">
+        <div class="text-cherry">
+          <h1 class="til">Graphic design</h1>
+          <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+            potential
+            clients’ attention.</p>
+        </div>
+      </div>
+
+      <div class="orange">
+        <img src="images/desktop/image-photography.jpg" alt="Photography" class="orange-img">
+        <div class="text-orange">
+          <h1 class="til">Photography</h1>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality photos that improve your business
+            image.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="client">
+    <h3>Client testimonials</h3>
+
+    <article class="cards-cliente">
+      <div class="card-client">
+        <div class="imagen-client">
+          <img src="images/image-emily.jpg" alt="perfil img" class="perfil">
+        </div>
+        <div class="text-client">
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
+            hit.</p>
+        </div>
+        <div class="desc-perfil">
+          <p class="name">Emily R.</p>
+          <p class="dedica">Marketing Director</p>
+        </div>
+      </div>
+
+      <div class="card-client">
+        <div class="imagen-client">
+          <img src="images/image-thomas.jpg" alt="perfil img" class="perfil">
+        </div>
+        <div class="text-client">
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+            enjoyable
+            experience.</p>
+        </div>
+        <div class="desc-perfil">
+          <p class="name">Thomas S.</p>
+          <p class="dedica">Chief Operating Officer</p>
+        </div>
+      </div>
+
+      <div class="card-client">
+        <div class="imagen-client">
+          <img src="images/image-jennie.jpg" alt="perfil img" class="perfil">
+        </div>
+        <div class="text-client">
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        </div>
+        <div class="desc-perfil">
+          <p class="name">Jennie F.</p>
+          <p class="dedica">Business Owner</p>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <main class="gallery-container">
+    <article class="content-img">
+      <img src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+    </article>
+    <article class="content-img">
+      <img src="images/desktop/image-gallery-orange.jpg" alt="">
+    </article>
+    <article class="content-img">
+      <img src="images/desktop/image-gallery-cone.jpg" alt="">
+    </article>
+    <article class="content-img">
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+    </article>
+  </main>
+
+  <footer class="footer">
+    <h1>Sunnyside</h1>
+    <ul class="menu-footer">
+      <li>About</li>
+      <li>Services</li>
+      <li>Projects</li>
+    </ul>
+
+    <div class="social">
+      <img src="images/icon-facebook.svg" alt="facebook" class="icono">
+      <img src="images/icon-instagram.svg" alt="instagram" class="icono">
+      <img src="images/icon-twitter.svg" alt="twitter" class="icono">
+      <img src="images/icon-pinterest.svg" alt="pinterest" class="icono">
+    </div>
+  </footer>
+
+  /* font family */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+:root {
+    /* colores primarios */
+    --soft-red: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    /* graphic desing text */
+    --dark-desaturated-cyan: hsl(167, 40%, 24%);
+    /* photography text*/
+    --dark-blue: hsl(198, 62%, 26%);
+    /* footer */
+    --dark-moderate-cyan: hsl(168, 35%, 41%);
+    /* colores neutrales */
+    --very-dark-des-blue: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --dark-grayish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+    /* font size */
+    --size: 18px;
+    /* font family */
+    --barblow: "Barlow", sans-serif;
+    --fraunces: "Fraunces", serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: var(--size);
+    background-color: var(--white);
+    color: black;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: gray;
+}
+
+.header .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .logo-container {
+    width: 100%;
+}
+
+.logo-container .logo-img {
+    width: 100%;
+    max-width: 250px;
+    object-fit: cover;
+    padding: 30px;
+}
+
+.nav .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu li {
+    color: var(--white);
+}
+
+.menu li,
+.btn-nav {
+    margin-right: 70px;
+}
+
+
+/* hero section */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url(images/desktop/image-header.jpg) no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.6em;
+    padding-top: 11em;
+}
+
+.hero h1 {
+    font-size: 3.7em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: var(--white);
+}
+
+/* cards section */
+
+.cards {
+    width: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.card .text {
+    padding-inline: 6em;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+}
+
+.imagen .img-card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-two {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.orange, .cherry {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.orange .orange-img, .cherry .cherry-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.text-cherry, .text-orange {
+    position: absolute;
+    bottom: 5em;
+    max-width: 450px;
+    text-align: center;
+    padding: 0px 40px;
+    line-height: 1.5;
+}
+
+.til {
+    margin-bottom: 20px;
+}
+
+/* clientes */
+
+.client {
+    width: 100%;
+    max-width:1300px;
+    margin: 10em auto;
+    border: 1px solid red;
+}
+
+.client h3 {
+    text-align: center;
+    font-family: var(--fraunces);
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.cards-cliente {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5em;
+}
+
+.card-client .imagen-client {
+    width: 100%;
+}
+
+.card-client .imagen-client .perfil{
+    max-width: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.text-client {
+    text-align: center;
+    font-family: var(--barblow);
+    margin: 50px 35px 50px 35px;
+    line-height: 1.5;
+}
+
+.desc-perfil {
+    text-align: center;
+}
+
+.desc-perfil .name {
+    margin-bottom: 10px;
+    font-family: var(--barblow);
+}
+
+/* gallery */
+
+.gallery-container {
+    width: 100%;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.content-img {
+    width: 100%;
+}
+
+.content-img img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: var(--dark-desaturated-cyan);
+}
+
+
+body {
+    width: 100%;
+    background-color: gray;
+}
+
+/* .contaienr {
+    background-color: var(--white);
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+} */
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 25px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: calc(100% + 25px);
+    left: 25px;
+    right: 25px;
+    gap: 35px;
+    padding: 40px;
+    box-shadow: 0 10px 40px hsla(0, 0%, 0%, 0.1);
+    transform: scale(0.9);
+    transform-origin: top right;
+    opacity: 0;
+    pointer-events: none;
+    transition: var(--transition);
+    background-color: var(--white);
+}
+
+.menu.active {
+    transform: scale(1);
+    opacity: 1;
+    pointer-events: all;
+}
+
+.menu::before {
+    content: "";
+    position: absolute;
+    top: -19px;
+    right: -20px;
+    border: 20px solid transparent;
+    border-left-color: var(--white);
+    transform: rotate(45deg);
+}
+
+.menu .link {
+    
+    color: var(--dark-grayish-blue);
+}
+
+.btn {
+    color: hsl(54, 96%, 10%);
+    background: var(--yellow);
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    gap: 6px;
+    background: none;
+    cursor: pointer;
+}
+
+.nav-toggle .line {
+    background: var(--white);
+    width: 100%;
+    height: 2px;
+    transition: var(--transition);
+}
+
+.nav-toggle.active .one {
+    transform: translateY(4px) rotate(45deg);
+}
+
+.nav-toggle.active .two {
+    display: none;
+}
+
+.nav-toggle.active .three {
+    transform: translateY(-4px) rotate(-45deg); 
+}
+
+button {border: none;}
+a {text-decoration: none;}
+li {list-style: none;}
+img {display: block;}
+
+.title, .btn  {
+    font-family: var(--fraunces);
+    font-weight: 900;
+}
+
+.content-home {
+    position: relative;
+    height: 540px;
+    overflow: hidden;
+}
+
+.img-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.abs-content {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    right: 25px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.title-main {
+    font-size: 40px;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-bottom: 40px;
+}
+
+.arrow-link {
+    display: inline-block;
+    animation: click 1s ease infinite;
+}
+
+@keyframes click {
+    0%,
+    50%, 
+    100% {
+        transform: translateY(0);
+    }
+
+    12.5%,
+    37.5% {
+        transform: translateY(20px);
+    }
+
+    25% {
+        transform: translateY(10px);
+    }
+}
+
+/* cards section */
+
+@media (width >= 1200px) {
+    .content-home {
+        height: 100vh;
+    }
+
+    .abs-content {
+        width: 100%;
+    }
+
+    .abs-content .title-main {
+        font-size: 3.4rem;
+        margin-top: -120px;
+    }
+}
+
+
+
