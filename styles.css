@@ -289,8 +289,8 @@ a {text-decoration: none;}
     bottom: 30px;
     text-align: center;
     width: 100%;
-    max-width: 400px;
-    padding: 10px;
+    max-width: 100%;
+    padding: 10px 1.5rem;
 }
 
 .services-h3 {
@@ -508,19 +508,18 @@ a {text-decoration: none;}
         margin-left: 10px;
     }
 
+    .services .services-box .services-ab-content {
+        padding: 1rem 2rem;
+        max-width: 500px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
     .projects {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .services-ab-content {
-        max-width: 100%;
-        padding: 30px;
-    }
-
-    .services-p {
-        max-width: 400px;
-        margin: 0 auto;
-    }
+    
 }
 
 @media (min-width: 1024px) {
