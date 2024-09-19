@@ -411,14 +411,15 @@ a {text-decoration: none;}
     gap: 1.6rem;
 }
 
-.social-links a i{
+.social-links i{
     font-size: 1.3rem;
     color: var(--dark-desaturated-cyan);
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .footer-menu a:hover,
-.social-links a i:hover { 
+.social-links i:hover { 
     color: var(--white);
 }
 
