@@ -423,6 +423,23 @@ a {text-decoration: none;}
     color: var(--white);
 }
 
+.attribution {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.7rem;
+    color: var(--dark-moderate-cyan);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--dark-moderate-cyan);
+    transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+    color: var(--dark-desaturated-cyan);
+}
+
 @media (min-width: 550px) {
     .home {
         height: 700px;
